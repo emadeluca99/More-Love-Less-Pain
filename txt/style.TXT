@@ -1,0 +1,243 @@
+html{height: 100%; font-family: 'Roboto', sans-serif;}
+body{background: #FFFFF0; margin: 0; font-family: font-family: 'Source Serif Pro', serif;}
+
+/* Generali */
+.animate{
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+p{line-height: 22px;}
+
+/* ! Header */
+.header{background: #212121; height: 70px; !important;}
+
+.header__logo{color: #8B0000; float: left; display: block;
+	text-decoration: none; }
+.header img{max-width: 200px; height: 70px; margin-left: 5px;}
+
+.header__menu{float: right; margin: 0; padding: 0;}
+
+.header__menu__items{display: inline-block; font-family: 'Roboto', sans-serif;}
+.header__menu__items a{color: #8B0000; display: block;
+padding: 15px; text-decoration: none;}
+.header__menu__items a:hover{background: #8B0000; color:#FFFFF0;}
+
+.header__icon-bar{display: block; float: right; padding: 20px;
+	display: none;}
+.header__icon-bar span{display: block; height: 3px; width: 30px;
+	background: #8B0000; margin-bottom: 5px;}
+
+/* Intro */
+.cover img{width: 100%;
+	height: auto;}
+
+/* Cards */
+.cards{max-width: 1200px; height: 500px; margin: 40px auto;}
+.card{width: 30%; margin: 0 1.5%; background: #DCDCDC; color:#8B0000;
+	float: left; text-align: center; cursor: pointer;}
+.card__image{width: 100%; height: auto;}
+.card__copy{padding: 5px 10px;}
+.card__copy h1{margin-bottom: 0}
+.card__copy:hover{background: #DCDCDC; color: #696969;}
+
+/* Banner */
+.banner{background: #F7F3F3; height:50%; margin: 30px}
+.banner__image img{width:300px; float: left; height: 300px;}
+.banner__image__2 img{width:300px; float: right; height: 300px;}
+
+.banner__copy{width:70%; float:left; height:300px; display: table;}
+.banner__copy__text{display: table-cell; vertical-align: middle; padding:30px;}
+
+.banner__copy__text h3{font-size: 36px;margin-bottom:0; margin-top: 0;}
+.banner__copy__text h4{font-size: 22px;margin: 5px 0}
+
+/* Footer */
+.footer{background: #8B0000; padding:10px; color: #FFFFF0; margin-top: 40px}
+
+
+
+/* Chi siamo */
+.cover img{width: 100%;
+	height: auto;}
+.presentazione{font-family: 'Source Serif Pro', serif;}
+.presentazione__copy{max-width: 800px; margin: 0px auto; margin-top: -60px;
+	background: #FFFFF0; padding:20px 40px;position: relative; z-index: 1}
+.panel__copy__title{font-size: 32px; text-align: center;}
+.presentazione__copy__testo{font-weight: bold; font-size: 16px;}
+
+.foto{text-align: center;}
+.foto img{width: 600px; height: auto;}
+
+
+
+/* Campagne*/
+.proposte{font-family: 'Source Serif Pro', serif;
+	height: 70px; text-align: center;
+	background-color: #8B0000; color: #FFFAFA;}
+.proposte h2{font-size: 50px; padding: 10px 0px; margin: 0px;}
+
+.presentazione{font-family: 'Source Serif Pro', serif;}
+.presentazione__copy{max-width: 800px; margin: 0px auto; margin-top: -60px;
+	background: #FFFFF0; padding:20px 40px;position: relative; z-index: 1}
+
+
+/* Eventi*/
+.events{max-width: 1200px; height: 350px; margin: 40px auto;}
+.event{width: 30%; margin: 0 1.5%; background: #DCDCDC; color:#8B0000;
+	float: left; text-align: center; cursor: pointer;}
+
+
+/* Contatti*/
+.body{height: 300px;}
+
+h5{font-family: 'Source Serif Pro', serif;
+	text-align: center;
+	font-size: 20px;}
+
+.icone{
+	display: grid;
+	height: 100%;
+	width: 100%;
+	place-items: center;
+	background: linear-gradient(315deg, #ffffff, #d7e1ec);}
+
+.wrapper{
+	display: inline-flex;
+	text-align: center;
+	}
+
+.wrapper .icon{
+	margin: 0 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	position: relative;
+	z-index: 2;
+	cursor: pointer;}
+
+.wrapper .icon span{
+	color: black;
+	height: 60px;
+	width: 60px;
+	display: block;
+	background: #fff;
+	text-align: center;
+	border-radius: 50%;
+	box-shadow: 0 10px 10px rgba(0,0,0,0.1);}
+
+.wrapper .icon span:hover{color:  #8B0000;}
+
+.wrapper .icon span i{
+	font-size: 25px;
+	line-height: 60px;}
+
+.wrapper .icon .tooltip{
+	font-family: 'Source Serif Pro', serif;
+	vertical-align: center;
+	text-align: center;
+	background: #fff;
+	font-size: 20px;
+	padding: 10px 18px;
+	border-radius: 25px;
+	box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+}
+
+/* DOC */
+.documentazione{font-family: 'Source Serif Pro', serif;}
+.documentazione__copy{max-width: 800px; margin: 0px auto; margin-top: -60px;
+	background: #FFFFF0; padding:20px 40px;position: relative; z-index: 1}
+.documentazione__copy__title{font-size: 32px; text-align: center; color: #8B0000;}
+.documentazione__copy__testo{font-weight: bold; font-size: 16px; color: #8B0000;}
+
+.doc{width: 300px; height: auto; margin-bottom: 20px;}
+
+
+
+
+/* ! Tablet */
+@media (max-width: 988px){
+
+.intro img{height:30%;}
+
+.cover img{width: 100%;
+	height: auto;}
+
+.presentazione{width: 90%; margin: 5%; position: center;}
+
+.banner{height: 300px; margin: 30px 0px;}
+.banner__image{width: 100%; height: auto;}
+.banner__copy{width: 50%; height: 100%}
+
+.card__image{width: 100%; height: auto;}
+
+.events{max-width: 1200px; height: 300px; margin: 40px auto;}
+}
+
+
+
+/* ! Smartphone */
+@media (max-width: 767px){
+
+.header__icon-bar{display: block;}
+.header img{margin-top: 8px;}
+
+.header__menu{width: 100%; height: 0px; overflow: hidden;}
+
+.header__menu__items{display: block;}
+.is-open{height: 310px; overflow: auto;}
+
+.intro img{height:100%;}
+
+.cover img{width: 100%;
+	height: auto;}
+
+.cards{height: 1550px;}
+.card{width: 90%; margin: 5%; text-align: center;}
+
+.foto{text-align: center;}
+.foto img{width: 300px; height: auto;}
+
+.proposte{height: 40px;}
+.proposte h2{font-size: 30px; padding: 5px 0px; margin: 0px;}
+
+.banner{height: 600px; margin: 20px 0px;}
+.banner__image,
+.banner__copy{width:100%; height:50%}
+
+.banner__copy__text h3{font-size: 25px;margin-bottom:0; margin-top: 0;}
+.banner__copy__text h4{font-size: 15px;margin: 5px 0}
+
+.footer{height: 5%; width: 100%;}
+
+.presentazione{width: 90%; margin: 5%; position: center;}
+.presentazione__copy{margin-top: -20px;}
+.presentazione__copy__testo p{font-size: 20px;}
+
+.events{max-width: 1200px; height: 100px; margin-top: 5px;}
+.eventi__copy__title h2{font-size: 10px; text-align: center;}
+.eventi__copy__testo p{font-weight: bold; font-size: 5px;}
+
+.events .card__image img{width: 90%; margin: 5%; text-align: center;}
+
+.contatti h5{font-size: 18px;}
+}
+
+.wrapper .icon{margin: 0 10px; align-items: center;}
+.wrapper .icon .tooltip{margin-top: 40px;}
+
+
+
+
+
+
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+* html .clearfix {zoom: 1; }              /* IE6 */
+*:first-child+html . clearfix {zoom: 1; } /* IE7 */

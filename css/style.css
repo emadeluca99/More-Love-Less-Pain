@@ -1,0 +1,301 @@
+html{height: 100%; font-family: 'Roboto', sans-serif;}
+body{background: #ffffff; margin: 0; font-family: font-family: 'Source Serif Pro', serif;}
+
+/* Generali */
+.animate{
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+p{line-height: 22px;}
+
+/*-----------------------------
+header
+-----------------------------*/
+
+.header{background: #000000; height: 55px; !important;}
+
+.header__logo{color: #ffffff; float: left; display: block;
+	text-decoration: none; }
+.header img{max-width: 200px; height: 51px; margin-left: 5px;}
+
+.header__menu{float: right; margin: 0; padding: 0;}
+.is-open{height: auto; overflow: auto;}
+
+.header__menu__items{display: inline-block; font-family: 'Roboto', sans-serif;}
+.header__menu__text a{color: #000000; display: block;
+padding: 15px; text-decoration: none;}
+.header__menu__items a{color: #a3a3a3; display: block;
+padding: 15px; text-decoration: none;}
+.header__menu__items a:hover{background: #000000; color:#ffffff; opacity: 0.7}
+
+.header__icon-bar{display: block; float: right; padding: 20px;
+	display: none;}
+.header__icon-bar span{display: block; height: 3px; width: 30px;
+	background: #ffffff; margin-bottom: 5px;}
+
+	/*-----------------------------
+	intro
+	-----------------------------*/
+
+.video {autoplay; width:100% !important; height:auto;  margin-top: 0px; margin-bottom: 100px}
+
+/*-----------------------------
+Banner
+-----------------------------*/
+
+.banner{background: #292929; height:50%;margin-top:40px}
+.banner__image{width:100%; float:left;height:auto;
+	background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	background-position: center center;
+}
+.banner__copy{width:70%; float:left;height:100%;display: table;}
+.banner__copy__text{display:left table-cell; vertical-align: middle;padding:30px; color: #dedede;}
+
+.banner__copy__text h3{font-size: 36px;margin-bottom:0;}
+.banner__copy__text h4{font-size: 22px;margin: 5px 0}
+
+/*-----------------------------
+Cards
+-----------------------------*/
+
+.cards{max-width: 1200px; height: 500px; margin: 40px auto;font-family: 'Heebo', sans-serif;}
+.card{width: 30%; margin: 0 1.5%; background: #000000; color:#DCDCDC;
+	float: left; text-align: center; cursor: pointer;}
+.carde1{width: auto; margin: 0 1.5%; background: #000000; color:#DCDCDC;
+	float: left; text-align: center; cursor: pointer;}
+.carde{width: auto; margin: 0 1.5%; background: #000000; color:#DCDCDC;
+	float: left; text-align: center; cursor: pointer; padding:10px}
+.card__image{width: 100%; height: 100%;}
+.card__copy{padding: 10px;}
+.card__copy h1{margin-bottom: 0;}
+.card__copy:hover{background: #292929; color: #696969;}
+
+/*-----------------------------
+botton
+-----------------------------*/
+
+.bottone
+{width: 80px; height: 40px;font-family: 'Roboto', sans-serif;color: #000000; background: #ffffff}
+.bottone:hover {background-color: #c6c6c6}
+
+.bottone:active {
+  background-color: #c6c6c6;
+  transform: translateY(2px);}
+
+/*-----------------------------
+Footer
+-----------------------------*/
+
+.footer{background: #000000; padding:10px;color:#fff; margin-top: auto}
+.footer2{background: #000000; padding:10px;color:#fff; margin-top: 260px}
+.footer3{background: #000000; padding:10px;color:#fff; margin-top: 175px}
+
+
+/*-----------------------------
+Chi Siamo
+-----------------------------*/
+
+.cover img{width: 100%;
+	height: auto;}
+
+	.chi_siamo{font-family: 'Roboto', sans-serif; color:#fff}
+	.chi_siamo__copy{max-width: 800px; margin: 0px auto; margin-top: -60px;
+		background: #000; padding:20px 40px;position: relative; z-index: 1; margin-bottom: 5px}
+	.panel__copy__title{font-size: 32px; text-align: center;}
+	.chi_siamo__copy__testo{font-weight: bold; font-size: 16px; color:#fff}
+	.chi__siamo__banner{width: 30%; height: 30%;}
+	.chi_siamo_testo{color:#fff}
+
+
+.icone{
+	display: grid;
+	height: 100%;
+	width: 100%;
+	place-items: center;
+	background: linear-gradient(315deg, #ffffff, #d7e1ec);}
+
+	/*-----------------------------
+	INFO
+	-----------------------------*/
+
+	.body{height: 300px;}
+
+	h5{font-family: 'Heebo', sans-serif;
+		text-align: center;
+		font-size: 20px;}
+
+	.info_text
+	{margin-top: 80px; font-family: 'Heebo', sans-serif;}
+
+
+	.icone{
+		display: grid;
+		height: 100%;
+		width: 100%;
+		place-items: center;
+		background: linear-gradient(315deg, #ffffff, #d7e1ec);}
+
+	.wrapper{
+		display: inline-flex;
+		text-align: center;
+		margin-top: 50px;
+		}
+
+	.wrapper .icon{
+		margin: 0 50px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		position: relative;
+		z-index: 2;
+		cursor: pointer;}
+
+	.wrapper .icon span{
+		color: black;
+		height: 60px;
+		width: 60px;
+		display: block;
+		background: #fff;
+		text-align: center;
+		border-radius: 50%;
+		box-shadow: 0 10px 10px rgba(0,0,0,0.1);}
+
+	.wrapper .icon span:hover{color:  #828282;}
+
+	.wrapper .icon span i{
+		font-size: 25px;
+		line-height: 60px;}
+
+	.wrapper .icon .tooltip{
+		font-family: 'Roboto', serif;
+		vertical-align: center;
+		text-align: center;
+		background: #fff;
+		font-size: 20px;
+		padding: 10px 18px;
+		border-radius: 25px;
+		box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+	}
+
+	/*-----------------------------
+	about
+	-----------------------------*/
+
+	.cover img{width: 100%;
+		height: auto;}
+
+		.about{font-family: 'Roboto', sans-serif; color:#000}
+		.about__copy{max-width: 800px; margin: 0px auto; margin-top: -60px;
+			background: #fff; padding:20px 40px;position: relative; z-index: 1; margin-bottom: 5px}
+		.about__copy__title{font-size: 33px; text-align: center;}
+		.about__copy__testo{font-weight: bold; font-size: 16px; color:#000}
+		.about__banner{width: 50%; height: 50%;margin-bottom: 10px}
+		.about_testo{color:#000}
+
+
+	.icone{
+		display: grid;
+		height: 100%;
+		width: 100%;
+		place-items: center;
+		background: linear-gradient(315deg, #ffffff, #d7e1ec);}
+
+/* DOC */
+.documentazione{font-family: 'Source Serif Pro', serif;}
+.documentazione__copy{max-width: 800px; margin: 0px auto; margin-top: -60px;
+	background: #ffffff; padding:20px 40px;position: relative; z-index: 1}
+.documentazione__copy__title{font-size: 32px; text-align: center; color: #8B0000;}
+.documentazione__copy__testo{font-weight: bold; font-size: 16px; color: #8B0000;}
+
+.doc{width: 300px; height: auto; margin-bottom: 20px;}
+
+
+
+
+/* ! Tablet */
+@media (max-width: 988px){
+
+
+.header{background: #000000; height: 65px; !important;}
+.header__icon-bar{display: block;}
+.header img{margin-top: 5px;}
+
+.header__menu{width: 100%; height: 0px; overflow: hidden; margin-top: 0px;}
+
+.header__menu__items{display: block;}
+.is-open{height: auto; overflow: auto;}
+
+
+.video {autoplay; width:100% !important; height:100%;}
+
+.cover img{width: 100%;
+	height: auto;}
+
+	.chi_siamo{width: 90%; margin: 5%; position: center;}
+	.chi_siamo__copy{margin-top: -20px;}
+	.chi_siamo__copy__testo p{font-size: 20px;}
+
+.cards{height: 1200px;}
+.card{width: 120%; margin: 5%; text-align: center;align: center !important;}
+.carde1{width: auto; margin: 0 1.5%; background: #000000; color:#DCDCDC;
+	float: left; text-align: center; cursor: pointer; margin-bottom: 10px}
+.carde{width: auto; margin: 0 1.5%; background: #000000; color:#DCDCDC; margin-bottom: 10px ;
+	float: left; text-align: center; cursor: pointer; padding:10px}
+.card__image{width: 100%; height: auto; align: center;}
+
+
+
+.footer{height: 3%; width: auto;}
+.footer3{background: #000000; padding:10px;color:#fff; margin-top: 500px;}
+
+/* ! Smartphone */
+@media (max-width: 767px){
+
+.header{background: #000000; height: 65px; !important;}
+.header__icon-bar{display: block;}
+.header img{margin-top: 5px;}
+
+.header__menu{width: 100%; height: 0px; overflow: hidden; margin-top: 0px;}
+
+.header__menu__items{display: block;}
+.is-open{height: auto; overflow: auto;}
+
+
+.video {autoplay; width:100% !important; height:100%;}
+
+.cover img{width: 100%;
+	height: auto;}
+
+	.chi_siamo{width: 90%; margin: 5%; position: center;}
+	.chi_siamo__copy{margin-top: -20px;}
+	.chi_siamo__copy__testo p{font-size: 20px;}
+
+.cards{height: 1200px;}
+.card{width: 90%; margin: 5%; text-align: center;align: center !important;}
+.carde1{width: auto; margin: 0 1.5%; background: #000000; color:#DCDCDC;
+	float: left; text-align: center; cursor: pointer; margin-bottom: 10px}
+.carde{width: auto; margin: 0 1.5%; background: #000000; color:#DCDCDC; margin-bottom: 10px ;
+	float: left; text-align: center; cursor: pointer; padding:10px}
+
+
+
+.footer{background: #000000; padding:10px;color:#fff; margin-top: 300px}
+.footer3{background: #000000; padding:10px;color:#fff; margin-top: 500px}
+
+
+
+
+
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+* html .clearfix {zoom: 1; }              /* IE6 */
+*:first-child+html . clearfix {zoom: 1; } /* IE7 */

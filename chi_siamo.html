@@ -1,0 +1,85 @@
+<!doctype html>
+	<html>
+	<head>
+
+		<meta charset='utf-8'>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="shortcut icon" href="file/favicon.ico" type="image/x-icon">
+		<title>MoreLoveLessPain</title>
+
+				<link rel="preconnect" href="https://fonts.googleapis.com">
+				<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+				<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+				<link rel="preconnect" href="https://fonts.googleapis.com">
+				<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+				<link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300&display=swap" rel="stylesheet">
+
+		<meta http-equiv="X-UA-Compatible" content="IE-edge">
+		<meta name="viewport" content="width=device-widht; initial-scale=1">
+	</head>
+
+	<body>
+
+		<header class="header clearfix">
+
+				<a href="index.html" class="header__logo"><img src="file/logoB.png"></a>
+				<a href="" class="header__icon-bar">
+					<span></span>
+					<span></span>
+					<span></span>
+				</a>
+
+				<ul class="header__menu animate">
+					<li class="header__menu__items"><a href="index.html">HOME</a></li>
+					<li class="header__menu__items"><a href="chi_siamo.html">STORIA</a></li>
+					<li class="header__menu__items"><a href="collezione.html">MLLP COLLEZIONE</a></li>
+					<li class="header__menu__items"><a href="info.html">INFO</a></li>
+					<li class="header__menu__items"><a href="about.html">ABOUT</a></li>
+				</ul>
+			</header>
+
+			<section class="cover">
+				<img src="file/bannerLog.png">
+			</section>
+
+			<article class="chi_siamo">
+			<div class="chi_siamo__copy">
+				<h1 class="chi_siamo__copy__title">STORIA BRAND</h1>
+				<p class="chi_siamo__copy__testo"> MoreLoveLessPain
+				</p>
+				<a class="chi_siamo_testo">
+				<p>Il brand è nato in un modo particolare nell’estate del 2019.</p>
+				<p>Siamo una comitiva numerosa e una sera uscendo con il mio amico aveva la prima maglia del brand indossata, che sarebbe la prima maglia a sinistra nella collezione.<br>La maglia mi è subito piaciuta come agli altri amici del nostro gruppo, così l’abbiamo prodotta per noi del gruppo e uscendo notavamo che la maglia piaceva a tanti amici della nostra città.</p>
+        <p>Da qui è nata l’idea di creare un brand anche se non siamo mai andati oltre la nostra città.</p>
+			</a>
+			</div>
+			<center>
+			<img src="file/presentazione.png" class="chi__siamo__banner">
+		</center>
+		</article>
+
+
+			 <footer class="footer">
+				 <center>
+		 			<p>Copyright © 2022 MoreLoveLessPain all rights reserved.</p>
+				</center>
+		 		</footer>
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script>
+		 $(document).ready(function(){
+
+			$(".header__icon-bar").click(function(e){
+
+				$(".header__menu").toggleClass('is-open');
+				e.preventDefault();
+
+				});
+			});
+		</script>
+
+	</body>
+
+	</html>
