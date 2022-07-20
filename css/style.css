@@ -181,7 +181,7 @@ Chi Siamo
 	}
 
 	/*-----------------------------
-	about
+	ABOUT
 	-----------------------------*/
 
 	.cover img{width: 100%;
@@ -194,7 +194,7 @@ Chi Siamo
 		.about__copy__testo{font-weight: bold; font-size: 16px; color:#000}
 		.about__banner{width: 50%; height: 50%;margin-bottom: 10px}
 		.about_testo{color:#000}
-
+    .about__banner2{width: 50%; height: 50%; margin-bottom: 10px;}
 
 	.icone{
 		display: grid;
